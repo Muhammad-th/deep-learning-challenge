@@ -1,0 +1,13 @@
+Analysis:
+
+The goal is to predict whether applicants will be successful if funded by Alphabet Soup. We will use machine learning and neural netwarks to make this prediction.
+
+Results:
+EIN and NAME were removed becasue they were neither targets nor features. After removing them, the remaining columns are considered features for the model.
+The target variable for the model is "IS_SUCCESSFUL".
+
+Compliling:
+After applying the training model we managed to get close to the target at 72%.
+
+Optimization:
+For the second attempt, we added "NAME" back and we were able to go over the target at 78%.
